@@ -1,6 +1,72 @@
-<h2>Hello World</h2>
-<p>
-  The time is now: <%= Time.now %>
-</p>
+<div class="row">
+  <h1>Bonjour, I’m Philippe.</h1>
+  <p>
+    I love to make things — especially websites. SumOfUs, I think you should hire me.
+  </p>
+</div>
+<div class="row">
+  <h2>Why are you applying for this job? (Suggested word limit: 125)</h2>
+  <p class='answer-text'>
+    I loved your job description, your cause and I was done when reading your values (https://docs.google.com/document/d/1VftkSfLBYWT4iiowMyrSdDgCuL0MXLkbji5-4sVgz-o/edit). I know we are made to work together, you guys values match mine and a good book said: Look for cultural fit, over competence. (The book is tribal leadership, and my pinky tell me you read it. Or maybe it was good to great)
 
-<%= text_field_tag 'test' %>
+    and googled Neal, Tuuli and Omar
+  </p>
+  <p>
+    <span class='counter'></span> words
+  </p>
+</div>
+
+<div class="row">
+  <h2>What's one idea, big or small, that you have for how technology can be used to advance social progress? (Suggested word limit: 200)</h2>
+  <p class='answer-text'>
+  Advancing social progress is an ambiguous word. It can have a lot of meaning, my definition behind it is how we can move people toward the right direction, because we can also move them to the wrong direction. Technology now enable to reach millions of people from a single click bringing them together when they are not browsing for cats pictures. So my little idea is to use that reach and make content that will either make people reflect and think. And let a chain of positive ideas spread unconsciously. Some people argue that this won’t make a difference and I don’t know if it makes a difference. But that won’t keep me away from trying.
+
+  In a more practical way. I would try to reach people with the most influent tool of today: Social media. Therefore the difficulty is to have people’s attention. In order to do that I would make content that interest them, bringing them values.
+
+  Honestly I have no idea how to answer that question, but would love to hear your point of view.
+  </p>
+  <p>
+    <span class='counter'></span> words
+  </p>
+</div>
+
+<div class="row">
+  <h2>List which of the characteristics under “Big Pluses” you believe you match, with a few words of explanation if that’s useful (but keep it short!)</h2>
+  <p class='answer-text'>
+Familiarity with the technologies Sum of Us use: Ruby on Rails, Javascript and AWS <br>
+Knack for building responsive user interfaces that are beautiful and intuitive to use. My school is a graphic oriented school. Especially on how we can build simple and intuitive interface for people. I previously worked in building a marketing automation tool which teach me a lot about a/b testing and how to build for the maximum return. <br>
+Experience building mobile apps and websites. 2 prototypes on iOS and I lost count on the number of websites
+Experience with non-profits. <br>
+I helped build a humanitarian project in Bangladesh at 19 and also had an internship in Giving Corner which helped motivate company employees being more sustainable by donating to non-profits. <br>
+Prior experience working on a remote team. I've never worked as a remote developer YET. But i've read the very famous "remote" book by 37signals (and all there other book by the way). I've also made my current company integrate slack, with the team being split between Paris and Marseille. <br>
+Fluency in at least one non-English language. Born and raise in France.
+  </p>
+  <p>
+    <span class='counter'></span> words
+  </p>
+</div>
+
+<div class="row">
+  <h2>A brief description of where you heard about this job posting</h2>
+  <p>
+    One of my friend linked your job offer and told me: This is the perfect company for you. She was right.
+  </p>
+</div>
+
+<div class="row">
+  <h2>End note</h2>
+  <p>
+    Thanks for taking the time to read through this.
+    I would be excited and honored to be a part of SumOfUs. <br>
+    <%= greet %>
+  </p>
+</div>
+
+<div class="row">
+  <h2>Information</h2>
+  <p>
+    Github: <%= link_to 'Github', 'https://github.com/Gnirt/', target: '_blank' %> <br>
+    My personal blog, random thinking I have in my daily journal that I sometimes put online: <%= link_to 'http://philippetring.fr', 'http://philippetring.fr', target: '_blank' %> <br>
+    <%= mail_to('philippetring+sum_of_us_application@gmail.com', 'Send me an email', subject: '[SumOfUs] We love your application', body: 'Hey Philippe,') %>
+  </p>
+</div>
