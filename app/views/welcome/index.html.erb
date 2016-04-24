@@ -65,8 +65,11 @@ Fluency in at least one non-English language. Born and raise in France.
 <div class="row">
   <h2>Information</h2>
   <p>
-    Github: <%= link_to 'Github', 'https://github.com/Gnirt/', target: '_blank' %> <br>
-    My personal blog, random thinking I have in my daily journal that I sometimes put online: <%= link_to 'http://philippetring.fr', 'http://philippetring.fr', target: '_blank' %> <br>
-    <%= mail_to('philippetring+sum_of_us_application@gmail.com', 'Send me an email', subject: '[SumOfUs] We love your application', body: 'Hey Philippe,') %>
+    <%= fa_icon "pencil-square-o" %> <%= link_to 'http://philippetring.fr/vitae', target: '_blank' do "Resumé" end %> <br>
+    <%= fa_icon "github" %> <%= link_to 'https://github.com/Gnirt/', target: '_blank' do "Github" end %> <br>
+    <%= fa_icon "bullhorn" %> <%= link_to 'http://philippetring.fr', target: '_blank' do "Blog, taken from my daily private journal" end %> <br>
+    <%= fa_icon "envelope" %> <%= mail_to 'philippetring+sum_of_us_application@gmail.com', subject: '[SumOfUs] We love your application', body: 'Hey Philippe,' do %>
+    philippetring at gmail dot com
+    <% end %>
   </p>
 </div>
