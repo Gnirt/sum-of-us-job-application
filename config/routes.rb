@@ -4,5 +4,5 @@ Rails.application.routes.draw do
   # Serve websocket cable requests in-process
   # mount ActionCable.server => '/cable'
 
-  get '/welcome_sum_of_us', to: 'welcome#index'
+  root 'welcome#index'
 end
