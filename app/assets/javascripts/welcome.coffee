@@ -9,7 +9,7 @@ $(document).on "turbolinks:load", ->
   if ($('#welcome-index'))
     $('.counter').each (index) ->
       counter = $(this)
-      text = counter.parents('.row').find('.answer-text').text()
-      counter.html(countWords(text))
+      text = counter.parents('.list-group-item').find('.answer-text').text()
+      counter.html(countWords(text) + ' words')
       return
     return

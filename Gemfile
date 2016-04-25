@@ -31,6 +31,7 @@ gem 'jbuilder', '~> 2.0'
 # gem 'capistrano-rails', group: :development
 
 gem 'font-awesome-rails', '~> 4.6', '>= 4.6.1.0'
+gem 'bootstrap', '~> 4.0.0.alpha3'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
